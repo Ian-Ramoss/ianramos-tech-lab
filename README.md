@@ -19,9 +19,9 @@ Nem todos os projetos aqui estão finalizados — alguns são registros de curso
 ```bash
 tech-lab/
 │
-├── projetos-de-curso/         ← Projetos simples, de cursos e fundamentos
+├── projetos-de-cursos/         ← Projetos simples, de cursos e fundamentos
 │   ├── Curso-A-tema/
 │   ├── Curso-B-tema/
-│   └── Cursp-C-tema/
+│   └── Curso-C-tema/
 │
 ├── README.md                  ← Você está aqui :)
