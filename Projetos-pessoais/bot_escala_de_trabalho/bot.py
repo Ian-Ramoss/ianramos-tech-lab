@@ -3,11 +3,15 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 import pytz
 from apscheduler.schedulers.background import BackgroundScheduler
+import os
+from dotenv import load_dotenv
 
 # ================= CONFIGURAÇÕES =================
 
-TOKEN = "---" # Token do bot
-CHAT_ID = "---"  # ID do chat onde o alerta será enviado (pode ser um grupo ou chat privado)
+load_dotenv()
+
+TOKEN = os.getenv("TOKEN")
+CHAT_ID = os.getenv("CHAT_ID")
 TIMEZONE = pytz.timezone("America/Sao_Paulo")
 
 # Data base real (um dia que você sabe que foi Trabalho A)
@@ -48,7 +52,7 @@ def get_shift_info(target_date: date):
         return {
             "tipo": "Trabalho B",
             "turno": "12h",
-            "entrada": "08:00",
+            "entrada": "06:00",
             "saida": "18:00"
         }
     else:
