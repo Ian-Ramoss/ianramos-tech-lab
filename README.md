@@ -20,7 +20,7 @@ Nem todos os projetos aqui estão finalizados — alguns são registros de curso
 tech-lab/
 │
 ├── projetos-de-cursos/         ← Projetos simples, de cursos e fundamentos
-│   ├── Curso-A-tema/
+├── projetos-pessoais/         ← Projetos Pessoais onde exploro algumas tecnologias e tento resolver alguns problemas
 │   ├── Curso-B-tema/
 │   └── Curso-C-tema/
 │
