@@ -14,6 +14,14 @@ Nem todos os projetos aqui estão finalizados — alguns são registros de curso
 
 ---
 
+## 🧪 Projetos em Destaque
+
+| Projeto | Descrição | Tecnologias | Link |
+|--------|-----------|-------------|------|
+| 🔍 **Bot de escala de trabalho** | Projeto pessoal para automatizar controle de escala de trabalho, consultas rápidas via Telegram Bot. Este sistema foi criado para resolver um problema real: Controlar dois trabalhos com escalas diferentes; Saber onde trabalha hoje, amanhã ou qualquer data futura; Visualizar mês, semana ou ano inteiro | [🔗 Ver projeto](https://github.com/Ian-Ramoss/ianramos-tech-lab/tree/main/Projetos-pessoais/bot_escala_de_trabalho) |
+
+---
+
 ## 📁 Estrutura
 
 ```bash
